@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Food WebApp</title>
+    <link rel="icon" href="C:\Users\HP\Downloads\Ast1.png">
+    <style>
+        * {
+            margin: 0px;
+
+            box-sizing: border-box;
+        }
+
+        nav {
+            width: 100%;
+            height: 75px;
+            line-height: 75px;
+            position: fixed;
+            padding: 0px 100px;
+            background-color: rgb(51, 32, 70);
+        }
+
+        nav .logofoodapp p {
+            font-size: 25px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            float: left;
+            color: white;
+        }
+
+        nav ul {
+            float: right;
+        }
+
+        nav li {
+            display: inline-block;
+            list-style: none;
+        }
+
+        nav li a {
+            font-size: 18px;
+            text-transform: uppercase;
+            padding: 0px 20px;
+            text-decoration: none;
+            color: whitesmoke;
+        }
+
+        .textdata {
+            float: left;
+            padding: 55px 70px;
+            height: 100%;
+            line-height: 50px;
+            background-color:rgb(117, 106, 106);
+            width: 378px;
+            position: fixed;
+            z-index: 1;
+            top: 75px;
+            left: 0;
+
+
+        }
+
+        .textdata li a {
+            font-size: 22px;
+            text-transform: capitalize;
+            text-decoration: none;
+            line-height: 20px;
+            color:rgb(255, 254, 252);
+
+        }
+        ::marker {
+            color:rgb(255, 254, 252); ;
+        }
+        .imgstyle {
+            width: 400px;
+            height: 400px;
+            margin: 63px;
+           
+
+        }
+
+        .imagedata {
+            padding: 48px 0px 0px 633px;
+        }
+
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+            font-size: 22px;
+            text-transform: capitalize;
+            text-decoration: none;
+            line-height: 20px;
+
+        }
+    </style>
+</head>
+
+<body style="background-color: darkgray;">
+
+    <nav>
+        <div class="logofoodapp">
+            <p>
+                FOODwebAPP
+            </p>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Products</a></li>
+        </ul>
+    </nav>
+    <div class="textdata">
+        <h2>Top 5 favourite foods</h2>
+        <ul>
+            <li><a href="#biryani">Biryani</a></li>
+            <li><a href="#cake">Cake</a></li>
+            <li><a href="#pizza">Pizza</a></li>
+            <li><a href="#choupsey">Choupsey</a></li>
+            <li><a href="#wings">Wings</a></li>
+        </ul>
+    </div>
+    <div class="imagedata">
+        <div class="imgstyle">
+            <a id="biryani"><img src="https://media.istockphoto.com/photos/hyderabadi-biryani-a-popular-chicken-or-mutton-rice-preparation-picture-id466089615?k=6&m=466089615&s=612x612&w=0&h=5WfuPs3LPpKyRQers3H2ZmKYLb5pZoXHfXAaLRpfFV8="
+                    width="400" height="400"></a>
+            <div class="desc">Biryani</div>
+        </div>
+        <div class="imgstyle">
+            <a id="cake"><img src="https://d2z4fd79oscvvx.cloudfront.net/0027672_birthday_chocolate_cake_385.jpeg"
+                    width="400" height="400"></a>
+            <div class="desc">Cake</div>
+        </div>
+        <div class="imgstyle">
+            <a id="pizza"><img src="https://image.shutterstock.com/image-photo/supreme-pizza-lifted-slice-1-260nw-84904912.jpg"
+                    width="400" height="400"></a>
+            <div class="desc">Pizza</div>
+        </div>
+        <div class="imgstyle">
+            <a id="choupsey"><img src="https://www.khushiram.in/wp-content/uploads/2018/04/veg-choupsey.jpg"
+                    width="400" height="400"></a>
+            <div class="desc">Choupsey</div>
+        </div>
+        <div class="imgstyle">
+            <a id="wings"><img src="https://foxeslovelemons.com/wp-content/uploads/2016/10/Everything-Bagel-Chicken-Wings-2-735x490.jpg"
+                    width="400" height="400"></a>
+            <div class="desc">Wings</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
